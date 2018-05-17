@@ -17,7 +17,7 @@ not conflict with other ChiliPeppr objects.
 | chilipeppr.load() URL | https://raw.githubusercontent.com/reecem7/workspace-darkg2/master/auto-generated-workspace.html |
 | Edit URL              | http://ide.c9.io/undefined/undefined |
 | Github URL            | https://github.com/reecem7/workspace-darkg2 |
-| Test URL              | https://preview.c9users.io/undefined/undefined/workspace.html |
+| Test URL              | http://localhost:3001/workspace.htmlworkspace.html |
 
 ## Example Code for chilipeppr.load() Statement
 
