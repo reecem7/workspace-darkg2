@@ -15,10 +15,6 @@ var http = require('http'),
   //path = require('path'),
   fs = require('fs');
 
-  const express = require('express');
-  const path = require('path');
-  const app = express();
-
 var mimeTypes = {
   "html": "text/html",
   "jpeg": "image/jpeg",
@@ -27,6 +23,10 @@ var mimeTypes = {
   "js": "text/javascript",
   "css": "text/css"
 };
+const express = require('express');
+const path = require('path');
+const app = express();
+require('./config/express')(app);
 
 app.use(express.static(__dirname));
 
