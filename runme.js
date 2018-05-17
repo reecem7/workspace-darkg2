@@ -56,13 +56,13 @@ app.use(express.static(__dirname));
       res.end(finalHtml);
   });
 
-  app.get('/workspace',function(req,res){
+  app.get('/workspace.html',function(req,res){
 
     res.status(200).sendFile(path.join(__dirname + '/workspace.html'));
 
   });
 
-var port = 3030;
+var port = 3000;
 app.listen(port, function() {
   // eslint-disable-next-line
   console.log('Server running on port: %d', port);
@@ -216,9 +216,12 @@ var fileHtmlPath = "workspace.html"
 var widgetUrl = 'http://' +
     process.env.C9_PROJECT + '-' + process.env.C9_USER +
     '.c9users.io/workspace.html';
-var testUrl = 'https://preview.c9users.io/' +
-    process.env.C9_USER + '/' +
-    process.env.C9_PROJECT + '/' + fileHtmlPath;
+// var testUrl = 'https://preview.c9users.io/' +
+//     process.env.C9_USER + '/' +
+//     process.env.C9_PROJECT + '/' + fileHtmlPath;
+
+var testUrl = 'http://localhost:3001/workspace.html' + fileHtmlPath;
+
 var testUrlNoSsl = 'http://' + process.env.C9_PROJECT +
     '-' + process.env.C9_USER + '.c9users.io/' + fileHtmlPath;
 var editUrl = 'http://ide.c9.io/' +
