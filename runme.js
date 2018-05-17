@@ -56,7 +56,7 @@ app.use(express.static(__dirname));
       res.end(finalHtml);
   });
 
-  app.get('/workspace.html',function(req,res){
+  app.get('/workspace',function(req,res){
 
     res.status(200).sendFile(path.join(__dirname + '/workspace.html'));
 
