@@ -220,7 +220,7 @@ var widgetUrl = 'http://' +
 //     process.env.C9_USER + '/' +
 //     process.env.C9_PROJECT + '/' + fileHtmlPath;
 
-var testUrl = 'http://localhost:3001/workspace.html' + fileHtmlPath;
+var testUrl = 'http://localhost:3000/workspace.html' + fileHtmlPath;
 
 var testUrlNoSsl = 'http://' + process.env.C9_PROJECT +
     '-' + process.env.C9_USER + '.c9users.io/' + fileHtmlPath;
