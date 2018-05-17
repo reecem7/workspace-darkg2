@@ -1,0 +1,366 @@
+.workspace-dropdown li {
+    padding: 6px 10px;
+}
+.btn-ws {
+    width:100%;
+    /*margin:6px 20px;*/
+}
+.zipwhip-button {
+    /*line-height:0px;*/
+    /*padding: 1px 2px;*/
+}
+.zipwhip-recvtext-button {
+    /*height:22px;*/
+}
+.zipwhip {
+    background: url('http://www.zipwhip.com/resources/images/favicon.ico') no-repeat top left;
+    display: inline-block;
+    /*margin: 1px 0;*/
+    margin: -4px 5px;
+    height: 16px;
+    width: 16px;
+    /* line-height:0px; */
+    background-size: 16px 16px;
+    /* -webkit-background-size: 50% 50%; Safari
+    -khtml-background-size: 50% 50%; Konqueror
+    -moz-background-size: 50% 50%; Firefox */
+}
+#com-chilipeppr-ws-gcode-wrapper .dropdown-menu {
+    /* z-index:6; */
+    /* position:inherit; */
+}
+#com-chilipeppr-ws-gcode-wrapper .panel-heading {
+    /* padding: 10px 12px; */
+}
+#com-chilipeppr-ws-gcode-wrapper .well.com-chilipeppr-ws-hdr {
+    /* padding: 10px 15px; */
+}
+#com-chilipeppr-ws-gcode-dragdrop {
+    /*margin-right:6px;*/
+}
+#com-chilipeppr-ws-gcode-hdr {
+    height:64px;
+    margin-bottom:10px;
+}
+.panel {
+    margin-bottom:10px;
+}
+#com-chilipeppr-ws-gcode-wrapper {
+    
+}
+
+#com-chilipeppr-widget-gcode-body {
+    /* max-height:250px; */
+    height:250px;
+    background-color: transparent;
+}
+#com-chilipeppr-ws-gcode-wrapper .com-chilipeppr-widget-spconsole {
+    margin-bottom:0px;
+    background-color: transparent;
+}
+#com-chilipeppr-ws-gcode-dragdropoverlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:10;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    padding:100px;
+    border: 3px dashed #3276b1;
+    text-align:center;
+    pointer-events: none;
+}
+#com-chilipeppr-ws-gcode-dragdropoverlay .well {
+    background-color: rgba(127, 127, 127, 0.5);
+}
+#com-chilipeppr-ws-gcode-wrapper.hover {
+    /*background-color: blue; */
+}
+.com-chilipeppr-elem-dragdrop {
+    /* border: 1px dashed gray; */
+    /* border-radius: 4px; */
+    padding:0;
+    margin-right:6px;
+}
+.padrt {
+    padding-right:10px;
+    padding-left:10px;
+}
+.zhigh {
+    /* z-index:5; */
+    position:relative;
+}
+#com-chilipeppr-ws-gcode-wrapper .dropdown-menu {
+    /* z-index:20; */
+}
+#mainnav {
+    z-index:5;
+}
+.nopadding {
+    padding:0;
+}
+#com-chilipeppr-widget-3dviewer .panel-heading, #com-chilipeppr-3dviewer-controlpanel .panel-heading {
+    background:none;
+    /* border:none; */
+    padding:10px 15px;
+    margin-bottom:0;
+}
+#com-chilipeppr-3dviewer-controlpanel {
+    /* padding:0 10px; */
+    float:left;
+}
+#com-chilipeppr-gcode-list {
+   background-color: transparent;
+    /* padding-right: 10px; */
+    /* z-index:5; */
+    /* position: relative; */
+}
+#com-chilipeppr-serialport-ws-hdr {
+    /* z-index:5; */
+}
+.well.com-chilipeppr-ws-hdr {
+    padding:2px 15px;
+    /* padding:8px; */
+    /* padding-left:15px; */
+    /* margin:0; */
+    /* margin-bottom:10px; */
+}
+#chilipeppr-3dviewer {
+    /* z-index: -1; */
+    padding-right:10px;
+}
+#com-chilipeppr-widget-3dviewer-renderArea {
+    /* z-index:0; */
+}
+.row .widget {
+    margin:0;
+    padding:0;
+}
+.dropArea.hover {
+    background: #dddddd;
+}
+#pnlWorkspace.hover {
+    background: red;
+}
+body.hover {
+    background: #5bc0de;
+}
+#chilipeppr-serialport-wrapper .com-chilipeppr-widget-serialport-spselector {
+    max-height: none;
+    background: pink; /* og was nothing for background*/
+}
+#chilipeppr-serialport-log {
+    background-color: transparent;
+    /*height:200px;*/
+    /* padding-right:10px; */
+    /* z-index:5; */
+    /* position: relative; */
+}
+.nomargin {
+    margin:0;
+}
+.noheight {
+    height:0;
+}
+
+.billboard-content {
+    padding: 6px 20px;
+}
+.billboard-title {
+    margin-bottom:6px;
+}
+.billboard-url {
+    /* font-size: 9px; */
+    padding-top:0px;
+    margin-bottom:6px;
+    font-size:12px;
+}
+.billboard-img {
+    border:0px solid red;
+    border-radius: 5px;
+    position: relative;
+    width:100%;
+    height:160px;
+    background-position: center;
+    background-size: cover;
+}
+.billboard-imgcontain {
+    border:0px solid red; 
+    position: relative;
+}
+.billboard-stats {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.billboard-desc {
+    /* font-size:11px; */
+}
+.billboard-detail-title {
+    font-weight: bold;
+}
+.billboard-stats2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 4px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#com-chilipeppr-widget-xyz-body .com-chilipeppr-xyz-pos{
+     
+}
+    
+
+#com-chilipeppr-widget-xyz-body .com-chilipeppr-xyz-label-well{
+        background-color: #232323 !important; 
+
+}
+    
+#com-chilipeppr-widget-xyz-ftr .btn {
+    background-color: #232323 !important; 
+     
+    /*#232323*/ 
+}
+
+#com-chilipeppr-xyz-pos {
+   
+}
+#com-chilipeppr-widget-xyz-x {
+
+}
+.col-xs-9{
+background-color: transparent;
+
+    
+}
+#com-chilipeppr-widget-xyz-body .xyz-dimmed {
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.com-chilipeppr-widget-xyz-buttonarray>table {
+    background-color: transparent;
+}
+
+
+.com-chilipeppr-xyz-pos-well>input {
+    background-color: #555555 !important;
+}
+#com-chilipeppr-widget-xyz-machinecoords .container-fluid {
+    background-color: transparent;
+
+}
+
+#com-chilipeppr-widget-xyz-machinecoords .well{
+    background-color: black !important; /* DRO Background*/
+     
+}
+#com-chilipeppr-widget-xyz-machinecoords .com-chilipeppr-xyz-pos, .xyz-dimmed, .xyz-negpos {
+   color: black !important;/* DRO Background*/
+   background-color:black; 
+}
+
+#com-chilipeppr-widget-xyz-machinecoords   {
+    background-color: transparent ; 
+}
+
+/* added this to try to fix color 
+.com-chilipeppr-xyz-pos {
+    background-color: #FFFFFF;
+    padding:0 0 0 0px;
+    margin:0;
+}
+*/    
+    
+.navbar-brand.main-brand>img {
+    display: inline;
+}
+
+
+#com-chilipeppr-ws-gcode-hdr {
+    background-color: #232323  /*og #232323*/
+}
+#com-chilipeppr-ws-menu .btn {
+    margin-top: 5px;
+}
+#com-chilipeppr-ws-gcode-hdr .tabmode-button {
+
+}
+.workspace-title, .panel-title {
+    color: #2a9fd6;
+}
+#com-chilipeppr-3dviewer-controlpanel .com-chilipeppr-widget-3dviewer-simulator-title {
+    border-color: rgb(102, 175, 233);
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+  
+}
+
+::-webkit-scrollbar-track
+{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+.form-control {
+    background-color: transparent !important;
+}
+
+.gcode-sent {
+    color: #ff8800 !important;
+    background-color: transparent !important;
+}
+.gcode-queued {
+    color: #2a9fd6 !important;
+    background-color: transparent !important;
+}
+.gcode-written {
+    color: #77b300 !important;
+    background-color: transparent !important;
+}
+.gcode-completed {
+    color: #000000 !important;
+    background-color: #2a9fd6 !important;
+}
+.gcode-executed {
+    color: #000000 !important;
+    background-color: #77b300 !important;
+}
+.gcode-error{
+    color: #000000 !important;
+    background-color: #cc0000 !important;
+}
+#com-chilipeppr-widget-gcode-tbl .indx {
+    color: #9933cc;
+}
+#com-chilipeppr-widget-gcode-tbl .com-chilipeppr-gcode-tip {
+    background-color: #9833cc;
+}
+#com-chilipeppr-widget-gcode-body-2col {
+    width: 100%;
+    
+}
+
+
+.com-chilipeppr-widget-gcodeviewer-coords {
+    background: black !important;
+}
+.com-chilipeppr-widget-gcodeviewer-coords-start .coords-lbl, .com-chilipeppr-widget-gcodeviewer-coords-end .coords-lbl {
+    background-color: white !important;  /*black*/
+}
+.com-chilipeppr-widget-gcodeviewer-coords .coords-axis {
+    background-color: #9933cc !important;
+}
+

@@ -1,0 +1,23 @@
+Notes describing ideal behavior of local-Express Version of Workspace-darkG
+
+Running Locally:
+
+  It should load the docs page to a localhost
+
+  It should load the workspace/main widget html to a local host as well
+
+    The main page should include the necessary js and css files to operate/test
+
+  It should be inited locally using node or npm script
+
+Updating Files for Github
+
+  It should still update auto-generated-workspace.html for export with a refresh
+
+  The docs should list the correct
+
+    chilipeppr.load() URL for running in the cloud
+
+    Github Url
+
+    load() statement
