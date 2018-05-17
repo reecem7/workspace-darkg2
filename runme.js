@@ -1406,7 +1406,7 @@ var getGithubUrl = function(callback) {
   var url = "https://github.com/reecem7/workspace-darkg2";
 
   var rawurl = url.replace(/\/github.com\//i, "/raw.githubusercontent.com/");
-  // rawurl += '/master/' + fileAutoGeneratePath;
+  rawurl += '/master/' + fileAutoGeneratePath;
 
   var ret = {
     url: url,
