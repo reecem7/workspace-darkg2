@@ -1,0 +1,24 @@
+In order to use certain features that require your mic, or camera, the application must be a secure connection or https.
+To enable https for local development on localhost, use the following tutorial to generate a self-signed RSA certificate and key using OpenSSL
+  https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec
+  https://www.openssl.org/
+  https://github.com/openssl/openssl
+
+Overview of Steps for MacOS / Linux
+
+1. Clone the Repo from OpenSSL
+  $ git clone https://github.com/openssl/openssl.git
+
+2. Generate a RSA-2048 Key
+  $ openssl genrsa -des3 -out rootCA.key 2048
+
+3. Create a ROOT Secure Socket Layer(SSL) Certificate
+  $ openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.pem
+
+4. Open Keychain Settings and trust the certificate
+
+5. Create a DOMAIN SSL Certificate
+
+
+Other source to check out:
+https://www.ibm.com/support/knowledgecenter/en/SSWHYP_4.0.0/com.ibm.apimgmt.cmc.doc/task_apionprem_gernerate_self_signed_openSSL.html

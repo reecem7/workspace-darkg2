@@ -23,13 +23,13 @@ var mimeTypes = {
   "js": "text/javascript",
   "css": "text/css"
 };
+//require('./config/express')(app);
 const express = require('express');
 const secure = require('express-secure-only');
 const path = require('path');
 
 const app = express();
-// app.use(secure());
-//require('./config/express')(app);
+
 
 app.use(express.static(__dirname));
 
