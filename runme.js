@@ -10,10 +10,20 @@
 // your final auto-generated-widget.html file, and push your latest
 // changes to your backing github repo.
 
-var http = require('http'),
-  url = require('url'),
-  //path = require('path'),
-  fs = require('fs');
+var http = require('http');
+var url = require('url');
+var fs = require('fs');
+var https = require('https');
+//require('./config/express')(app);
+const express = require('express');
+const path = require('path');
+
+var certOptions = {
+  key: fs.readFileSync(path.resolve('config/cert/server.key')),
+  cert: fs.readFileSync(path.resolve('config/cert/server.crt'))
+}
+
+const app = express();
 
 var mimeTypes = {
   "html": "text/html",
@@ -23,13 +33,6 @@ var mimeTypes = {
   "js": "text/javascript",
   "css": "text/css"
 };
-//require('./config/express')(app);
-const express = require('express');
-const secure = require('express-secure-only');
-const path = require('path');
-
-const app = express();
-
 
 app.use(express.static(__dirname));
 
