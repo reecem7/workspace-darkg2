@@ -14,6 +14,14 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 var https = require('https');
+var mimeTypes = {
+  "html": "text/html",
+  "jpeg": "image/jpeg",
+  "jpg": "image/jpeg",
+  "png": "image/png",
+  "js": "text/javascript",
+  "css": "text/css"
+};
 //require('./config/express')(app);
 const express = require('express');
 const path = require('path');
@@ -25,14 +33,6 @@ var certOptions = {
 
 const app = express();
 
-var mimeTypes = {
-  "html": "text/html",
-  "jpeg": "image/jpeg",
-  "jpg": "image/jpeg",
-  "png": "image/png",
-  "js": "text/javascript",
-  "css": "text/css"
-};
 
 app.use(express.static(__dirname));
 
@@ -69,11 +69,12 @@ app.use(express.static(__dirname));
   });
 
 var port = 3000;
-app.listen(port, function() {
-  // eslint-disable-next-line
-  console.log('Server running on port: %d', port);
-});
-
+// app.listen(port, function() {
+//   // eslint-disable-next-line
+//   console.log('Server running on port: %d', port);
+// });
+var server = https.createServer(certOptions, app).listen(port);
+console.log('Server running on port: %d', port);
 
 
 // http.createServer(function(req, res) {
